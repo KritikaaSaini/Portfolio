@@ -11,15 +11,10 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Languages: English, Hindi</li>
         <li>Programming Languages: C++, C, Python, Java, JavaScript</li>
-        <li>Frameworks: Spring Boot, FastAPI, Node.js</li>
-        <li>DataBases: Firebase, hbase, MySQL, MongoDB</li>
-        <li>
-          Tools: Git, Eclipse, IntelliJ IDEA, Visual Studio Code, Maven, Gradle
-        </li>
-        <li>
-          Platform: Linux, Windows, AWS, Google Cloud Platform, Docker,
-          Kubernetes
-        </li>
+        <li>Frameworks: Node.js</li>
+        <li>DataBases: Firebase, MySQL, MongoDB</li>
+        <li>Tools: Git, Eclipse, Visual Studio Code</li>
+        <li>Platform: Linux, Windows, AWS, Docker,Kubernetes</li>
       </ul>
     ),
   },
@@ -43,6 +38,7 @@ const TAB_DATA = [
         <li>NPTEL Cloud Computing: Elite + Silver, Top 5% of candidates</li>
         <li>Introduction to Microsoft Excel - Coursera</li>
         <li>Bits and Bytes of Computer Networking - Coursera</li>
+        <li>Introduction to Machine Learning - Kaggle</li>
       </ul>
     ),
   },
