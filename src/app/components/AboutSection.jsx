@@ -13,9 +13,13 @@ const TAB_DATA = [
         <li>Programming Languages: C++, C, Python, Java, JavaScript</li>
         <li>Frameworks: Spring Boot, FastAPI, Node.js</li>
         <li>DataBases: Firebase, hbase, MySQL, MongoDB</li>
-        <li>Tools: Git, Eclipse, IntelliJ IDEA, Visual Studio Code, Maven, Gradle</li>
-        <li>Platform: Linux, Windows, AWS, Google Cloud Platform, Docker, Kubernetes</li>
-
+        <li>
+          Tools: Git, Eclipse, IntelliJ IDEA, Visual Studio Code, Maven, Gradle
+        </li>
+        <li>
+          Platform: Linux, Windows, AWS, Google Cloud Platform, Docker,
+          Kubernetes
+        </li>
       </ul>
     ),
   },
@@ -24,7 +28,10 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Vellore Institute of Technology - B.Tech (Computer Science and Engineering)</li>
+        <li>
+          Vellore Institute of Technology - B.Tech (Computer Science and
+          Engineering)
+        </li>
       </ul>
     ),
   },
@@ -58,17 +65,21 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Hi, I'm Kritika Saini, a Computer Science Engineering student 
-          at Vellore Institute of Technology, graduating in June 2025. 
-          With a passion for technology and innovation, I have developed a strong foundation 
-          in software development, machine learning, cloud computing, 
-          and data analytics. My academic journey, combined with hands-on 
-          project experience, has honed my skills in multiple programming languages, 
-          including C++, Python, Java, and JavaScript, and 
-          I’ve worked extensively with frameworks such as Spring Boot, FastAPI, and Node.js.
-          With certifications in Java, cloud computing, and networking, I am constantly 
-          learning and improving my technical expertise. My goal is to continue pushing 
-          the boundaries of technology to solve real-world problems and make an impact.
+            <p>
+              Hi, I&apos;m Kritika Saini, a Computer Science Engineering student
+              at Vellore Institute of Technology, graduating in June 2025. With
+              a passion for technology and innovation, I have developed a strong
+              foundation in software development, machine learning, cloud
+              computing, and data analytics. My academic journey, combined with
+              hands-on project experience, has honed my skills in multiple
+              programming languages, including C++, Python, Java, and
+              JavaScript, and I&apos;ve worked extensively with frameworks such
+              as Spring Boot, FastAPI, and Node.js. With certifications in Java,
+              cloud computing, and networking, I am constantly learning and
+              improving my technical expertise. My goal is to continue pushing
+              the boundaries of technology to solve real-world problems and make
+              an impact.
+            </p>
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
